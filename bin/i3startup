@@ -1,0 +1,20 @@
+#!/bin/sh
+
+[[ -f ~/.i3/i3-config-name ]] && . ~/.i3/i3-config-name
+
+# assemble config from specific and shared parts
+echo > ~/.i3/config
+cat ~/.i3/config-$I3_CONFIG-pre >> ~/.i3/config
+cat ~/.i3/config-shared >> ~/.i3/config
+cat ~/.i3/config-$I3_CONFIG-post >> ~/.i3/config
+
+i3 --shmlog-size=26214400 &
+
+# wait 10 sec for plasma and i3 to finish startup
+sleep 10
+
+# send autostarted kate instance to scratchpad, that way future ones will behave normal
+i3-msg [class="Kate"] focus && i3-msg move scratchpad
+
+# just block here :D
+read

@@ -1,0 +1,4 @@
+# screens
+set $mainscreen LVDS-0
+set $secondscreen DP-5
+

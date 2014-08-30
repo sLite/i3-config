@@ -1,0 +1,4 @@
+# screens
+set $mainscreen HDMI-0
+set $secondscreen DVI-I-2
+
