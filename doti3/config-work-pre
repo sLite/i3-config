@@ -1,4 +1,4 @@
 # screens
-set $mainscreen LVDS-0
-set $secondscreen DP-5
+set $mainscreen VBOX0
+set $secondscreen VBOX1
 
