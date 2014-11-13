@@ -1,0 +1,4 @@
+# screens
+set $mainscreen eDP1 
+set $secondscreen eDP1
+
