@@ -24,7 +24,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -175,14 +175,15 @@ bar {
 for_window [window_role="pop-up"] floating enable
 
 ## application settings
-assign [class="Chromium"] → $d1
-assign [class="Quasselclient"] → $d9
-assign [class="Kopete"] → $d9
-assign [class="Skype"] → $d9
-assign [class="Clementine"] → $d10
-assign [class="Thunderbird"] → $d2
-assign [class="NetBeans"] → $d3
-assign [class="DBeaver"] → $d4
+assign [class="Chromium"] $d1
+assign [class="Quasselclient"] $d9
+assign [class="Kopete"] $d9
+assign [class="Skype"] $d9
+assign [class="Clementine"] $d10
+assign [class="Thunderbird"] $d2
+assign [class="NetBeans"] $d3
+assign [class="jetbrains-idea"] $d3
+assign [class="com-onseven-dbvis-DbVisualizerGUI"] $d4
 
 for_window [class="java-lang-Thread" instance="sun-awt-X11-XFramePeer" title="^Starting NetBeans.*$"] floating enable
 for_window [class="Kopete" title="[^Kopete]"] floating enable;
