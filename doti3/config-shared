@@ -191,6 +191,7 @@ for_window [class="Skype" window_role="ConversationsWindow"] floating enable;
 for_window [class="Kcalc"] floating enable;
 for_window [class="Kmix"] floating enable;
 for_window [class="Klipper"] floating enable;
+for_window [class="Seafile-applet"] floating enable;
 
 ## focus behaviour
 focus_follows_mouse no
@@ -216,4 +217,5 @@ exec quasselclient
 exec skype
 exec thunderbird
 exec clementine
+exec seafile-applet
 
