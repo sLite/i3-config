@@ -196,9 +196,6 @@ for_window [class="Seafile-applet"] floating enable;
 ## focus behaviour
 focus_follows_mouse no
 
-## simpleswitcher
-bindsym $mod+Tab exec simpleswitcher -i3 -now -font "snap-10" -fg "#888888" -bg "#333333" -hlfg "#ffffff" -hlbg "#4c7899" -o 85
-
 #client.focused          #4c7899 #285577 #ffffff #2e9ef4
 #client.focused_inactive #333333 #5f676a #ffffff #484e50
 #client.unfocused        #333333 #222222 #888888 #292d2e

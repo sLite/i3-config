@@ -1,4 +1,4 @@
 # screens
-set $mainscreen VBOX0
-set $secondscreen VBOX1
+set $mainscreen VGA-0
+set $secondscreen VGA-1
 
