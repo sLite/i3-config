@@ -211,7 +211,6 @@ bindsym $mod+c scratchpad show
 exec chromium
 exec kate
 exec quasselclient
-exec skype
 exec thunderbird
 exec clementine
 exec seafile-applet
