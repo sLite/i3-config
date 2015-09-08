@@ -209,7 +209,7 @@ bindsym $mod+c scratchpad show
 
 ## autostart
 exec chromium
-exec kate
+exec atom
 exec quasselclient
 exec thunderbird
 exec clementine
