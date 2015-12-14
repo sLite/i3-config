@@ -121,23 +121,21 @@ bar {
 ## general application settings
 for_window [window_role="pop-up"] floating enable
 
+## general application settings
+for_window [window_role="pop-up"] floating enable
+
 ## application settings
-assign [class="Chromium"] $d1
-assign [class="Quasselclient"] $d9
-assign [class="Kopete"] $d9
+assign [class="chromium"] $d1
+assign [class="quassel"] $d9
 assign [class="Skype"] $d9
 assign [class="Clementine"] $d10
 assign [class="Thunderbird"] $d2
-assign [class="NetBeans"] $d3
 assign [class="jetbrains-idea"] $d3
 assign [class="com-onseven-dbvis-DbVisualizerGUI"] $d4
 
-for_window [class="java-lang-Thread" instance="sun-awt-X11-XFramePeer" title="^Starting NetBeans.*$"] floating enable
-for_window [class="Kopete" title="[^Kopete]"] floating enable;
 for_window [class="Skype" window_role="ConversationsWindow"] floating enable;
-for_window [class="Kcalc"] floating enable;
+for_window [class="kcalc"] floating enable;
 for_window [class="Kmix"] floating enable;
-for_window [class="Klipper"] floating enable;
 
 ## focus behaviour
 focus_follows_mouse no
