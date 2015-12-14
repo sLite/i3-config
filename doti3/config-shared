@@ -136,6 +136,7 @@ assign [class="com-onseven-dbvis-DbVisualizerGUI"] $d4
 for_window [class="Skype" window_role="ConversationsWindow"] floating enable;
 for_window [class="kcalc"] floating enable;
 for_window [class="Kmix"] floating enable;
+for_window [class="plasmashell"] floating enable;
 
 ## focus behaviour
 focus_follows_mouse no
