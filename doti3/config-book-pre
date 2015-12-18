@@ -1,4 +1,4 @@
 # screens
-set $mainscreen eDP1 
+set $mainscreen HDMI1
 set $secondscreen eDP1
 
