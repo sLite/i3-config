@@ -121,9 +121,6 @@ bar {
 ## general application settings
 for_window [window_role="pop-up"] floating enable
 
-## general application settings
-for_window [window_role="pop-up"] floating enable
-
 ## application settings
 assign [class="chromium"] $d1
 assign [class="quassel"] $d9
@@ -140,6 +137,7 @@ for_window [class="plasmashell"] floating enable;
 
 ## focus behaviour
 focus_follows_mouse no
+mouse_warping none
 
 # atom scratchpad
 bindsym $mod+Shift+c move scratchpad
