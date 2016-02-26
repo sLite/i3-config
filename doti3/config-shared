@@ -141,7 +141,7 @@ mouse_warping none
 
 # atom scratchpad
 bindsym $mod+Shift+c move scratchpad
-bindsym $mod+c [class="Atom"] scratchpad show
+bindsym $mod+c [class="(Atom|Emacs)"] scratchpad show
 # urxvt scratchpad
 bindsym $mod+Shift+x move scratchpad
 bindsym $mod+x [class="URxvt"] scratchpad show
