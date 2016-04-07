@@ -24,7 +24,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec konsole
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -139,17 +139,17 @@ for_window [class="plasmashell"] floating enable;
 focus_follows_mouse no
 mouse_warping none
 
-# atom scratchpad
+# editor scratchpad
 bindsym $mod+Shift+c move scratchpad
-bindsym $mod+c [class="(Atom|Emacs)"] scratchpad show
-# urxvt scratchpad
+bindsym $mod+c [class="Atom|Emacs|kate"] scratchpad show
+# terminal scratchpad
 bindsym $mod+Shift+x move scratchpad
-bindsym $mod+x [class="URxvt"] scratchpad show
+bindsym $mod+x [class="URxvt|konsole"] scratchpad show
 
 ## autostart
 exec chromium
-exec atom
+exec kate
 exec quasselclient
 exec thunderbird
 exec clementine
-exec urxvt
+exec konsole
