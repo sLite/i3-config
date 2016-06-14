@@ -1,0 +1,4 @@
+# screens
+set $mainscreen DP1-1
+set $secondscreen DP1-2
+

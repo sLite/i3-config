@@ -128,7 +128,7 @@ assign [class="Skype"] $d9
 assign [class="Clementine"] $d10
 assign [class="Thunderbird"] $d2
 assign [class="jetbrains-idea"] $d3
-assign [class="com-onseven-dbvis-DbVisualizerGUI"] $d4
+assign [class="jetbrains-datagrip"] $d4
 
 for_window [class="Skype" window_role="ConversationsWindow"] floating enable;
 for_window [class="kcalc"] floating enable;
