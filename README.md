@@ -34,9 +34,10 @@ The command i use for starting i3, that way i can control commandline options an
 This also assembles the config depending on I3_CONFIG before running i3.
 This needs to be in the path, i use the bin directory in my home for doing that.
 
-### .kde4/env/wm.sh
+### .kde4/env/wm.sh or .config/plasma-workspace/env/wm.sh
 
-This tells KDE to start our script instead of kwm
+This tells KDE/Plasma to start our script instead of kwm.
+Starting with Plasma 5 the file moved to .config instead of .kde4
 
 
 ## Additional Notes
