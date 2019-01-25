@@ -8,10 +8,5 @@ cat ~/.i3/config-$I3_CONFIG-pre >> ~/.i3/config
 cat ~/.i3/config-shared >> ~/.i3/config
 cat ~/.i3/config-$I3_CONFIG-post >> ~/.i3/config
 
-# give plasma (and networkmanager) some time to start up 
-sleep 10
+exec i3 --shmlog-size=26214400
 
-i3 --shmlog-size=26214400 &
-
-# just block here :D
-read
