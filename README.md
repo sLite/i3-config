@@ -1,3 +1,9 @@
+# **OUTDATED**
+
+**I don't maintain this repo anymore but leave it here as a reference.**
+
+Needed settings for using my i3 fork with KDE patches (https://github.com/sLite/i3) are found directly in the README.md of the i3 repository
+
 # i3-config
 
 The i3 configuration that i use with KDE 4
